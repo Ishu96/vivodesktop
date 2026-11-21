@@ -4,7 +4,8 @@
         android:allowBackup="true"
         android:label="VivoDesktop"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        android:theme="@style/Theme.VivoDesktop">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -13,5 +14,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".DummyActivity"
+            android:exported="false" />
     </application>
 </manifest>
